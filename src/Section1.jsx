@@ -34,8 +34,10 @@ export default function Section1() {
                 </div>
                 <div className="bg-red-700 bg-opacity-50 -translate-x-1/2 h-fit">
                     <div className="flex flex-col bg-red-700 bg-opacity-90 w-full translate-x-1/2">
-                        <FancyLink to="#">Resume</FancyLink>
-                        <FancyLink to="#">Socials</FancyLink>
+                        <FancyLink to="">Resume</FancyLink>
+                        <FancyLink to="mailto:sid@thefossrant.com">
+                            Contact
+                        </FancyLink>
                         <FancyLink to="https://github.com/sidgames5">
                             GitHub
                         </FancyLink>
@@ -78,7 +80,7 @@ export default function Section1() {
                     </div> */}
                 </div>
             </div>
-            <div className="h-0.5 w-1/2 bg-gray-300 mt-32">&nbsp;</div>
+            <div className="h-0.5 w-3/4 bg-gray-300 mt-32">&nbsp;</div>
         </div>
     );
 }

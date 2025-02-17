@@ -58,19 +58,19 @@ export default function Section3() {
                 <ProjectCard
                     name="Board Game Design (Competition)"
                     date="Jan 2025"
-                    award="3rd Place @ PA TSA Region 1"
+                    award="🥉3rd Place @ PA TSA Region 1"
                     location="Beaver Falls, PA"
                 ></ProjectCard>
                 <ProjectCard
                     name="Coding (Competition)"
                     date="Jan 2025"
-                    award="4th Place @ PA TSA Region 1"
+                    award="🏆4th Place @ PA TSA Region 1"
                     location="Beaver Falls, PA"
                 ></ProjectCard>
                 <ProjectCard
                     name="The Gaming Hub"
                     date="Feb 2024"
-                    award="3rd Place @ HackNA 2024"
+                    award="🥉3rd Place @ HackNA 2024"
                     location="Wexford, PA"
                 >
                     This website provides information on recycling and has a map
@@ -80,13 +80,14 @@ export default function Section3() {
                     name="RecycleWise"
                     date="Jan 2024"
                     link="https://www.fcasd.edu/post-details/~board/fox-chapel-area-school-district/post/dms-students-tops-in-stem-competition"
-                    award="1st Place @ Hack The Ram 2024"
+                    award="🥇1st Place @ Hack The Ram 2024"
                     location="Gibsonia, PA"
                 >
                     This website provides information on recycling and has a map
                     displaying near-by recycling facilities.
                 </ProjectCard>
             </div>
+            <div className="h-0.5 w-3/4 bg-gray-300">&nbsp;</div>
         </div>
     );
 }
