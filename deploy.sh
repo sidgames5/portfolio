@@ -7,7 +7,7 @@ if git branch --list | grep -q 'static'; then
     git branch -D static
 fi
 
-if ! git subtree split --prefix static -b static; then
+if ! git subtree split --prefix build -b static; then
     echo "Subtree split failed."
     exit 1
 fi
