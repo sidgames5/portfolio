@@ -2,12 +2,8 @@
 set -e
 
 npm run build
-cd build
-git add -A
+git checkout -b static
+git add build
 git commit -m "new deployment"
-if ! git show-ref --verify --quiet refs/heads/static; then
-  git branch static
-fi
-git checkout static
-git push -f origin static
-cd ..
+git push origin -u static
+git checkout -b master
