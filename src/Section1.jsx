@@ -29,10 +29,10 @@ export default function Section1() {
                     <img
                         src="main-tools-7.jpg"
                         alt="Stuff"
-                        className="w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
-                <div className="bg-red-700 bg-opacity-50 -translate-x-1/2">
+                <div className="bg-red-700 bg-opacity-50 -translate-x-1/2 h-fit">
                     <div className="flex flex-col bg-red-700 bg-opacity-90 w-full translate-x-1/2">
                         <FancyLink to="#">Resume</FancyLink>
                         <FancyLink to="#">Socials</FancyLink>
@@ -44,6 +44,9 @@ export default function Section1() {
                         <h1 className="text-8xl font-extrabold">
                             Siddarth Srinivasan
                         </h1>
+                        <p className="ml-32 mt-20 text-xl">
+                            Front-end developer
+                        </p>
                     </div>
                 </div>
             </div>
