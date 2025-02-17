@@ -78,6 +78,7 @@ export default function Section1() {
                     </div> */}
                 </div>
             </div>
+            <div className="h-0.5 w-1/2 bg-gray-300 mt-32">&nbsp;</div>
         </div>
     );
 }

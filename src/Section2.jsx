@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 function EducationCard({ institution, date, title, location, children }) {
     return (
         <div className="flex flex-col">
@@ -19,7 +21,14 @@ export default function Section2() {
             id="section-2"
             className="flex flex-row items-center justify-center align-top p-16 gap-32"
         >
-            <div className="flex flex-col items-center justify-center align-middle p-16 gap-32">
+            <motion.div
+                className="flex flex-col items-center justify-center align-middle p-16 gap-32"
+                initial={{ translateX: -100 }}
+                whileInView={{ translateX: 0 }}
+                transition={{
+                    duration: 1,
+                }}
+            >
                 <div>
                     <h1 className="text-5xl font-extrabold">My Education</h1>
                 </div>
@@ -31,8 +40,15 @@ export default function Section2() {
                         location="Pittsburgh, PA"
                     ></EducationCard>
                 </div>
-            </div>
-            <div className="flex flex-col items-center justify-center align-middle p-16 gap-32">
+            </motion.div>
+            <motion.div
+                className="flex flex-col items-center justify-center align-middle p-16 gap-32"
+                initial={{ translateX: 200 }}
+                whileInView={{ translateX: 0 }}
+                transition={{
+                    duration: 2,
+                }}
+            >
                 <div>
                     <h1 className="text-5xl font-extrabold">My Experience</h1>
                 </div>
@@ -49,7 +65,7 @@ export default function Section2() {
                         </ul>
                     </EducationCard>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 }
