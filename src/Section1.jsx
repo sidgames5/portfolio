@@ -47,7 +47,7 @@ export default function Section1() {
                             Siddarth Srinivasan
                         </h1>
                         <p className="ml-32 mt-20 text-xl">
-                            Front-end developer
+                            Student and Front-end Developer
                         </p>
                     </div>
                 </div>
@@ -70,6 +70,10 @@ export default function Section1() {
                             crafting projects from scratch. I also do
                             photography and mapping as side hobbies.
                         </TextBlock>
+                        <TextBlock title="Career Path">
+                            I am planning on pursuing either computer science or
+                            mechanical engineering.
+                        </TextBlock>
                     </div>
                     {/* <div className="flex justify-center items-center">
                         <img
@@ -80,7 +84,7 @@ export default function Section1() {
                     </div> */}
                 </div>
             </div>
-            <div className="h-0.5 w-3/4 bg-gray-300 mt-32">&nbsp;</div>
+            <div className="h-0.5 w-3/4 bg-gray-300 mt-16">&nbsp;</div>
         </div>
     );
 }
