@@ -56,9 +56,9 @@ export default function Section3() {
             <h1 className="text-5xl font-extrabold">My Projects & Awards</h1>
             <div className="grid grid-cols-2 gap-8 *:max-w-[30vw]">
                 <ProjectCard
-                    name="Board Game Design (Competition)"
+                    name="Market Mayhem"
                     date="Jan 2025"
-                    award="🥉3rd Place @ PA TSA Region 1"
+                    award="🥉3rd Place - Board Game Design @ PA TSA Region 1"
                     location="Beaver Falls, PA"
                 ></ProjectCard>
                 <ProjectCard
