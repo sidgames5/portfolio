@@ -1,4 +1,5 @@
 import "./App.css";
+import './index.css';
 import CompetitionCard from "./data/components/CompetitionCard";
 import EducationCard from "./data/components/EducationCard";
 import ProjectCard from "./data/components/ProjectCard";

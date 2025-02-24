@@ -30,7 +30,7 @@ const PersonalData = {
         Templates.interests.photography
     ],
     projects: [
-        new Project("Pallet", "https://raw.githubusercontent.com/sidgames5/pallet/refs/heads/master/src/logo.svg", "No-nonsense solution for inventory management in your home or business", [Templates.technologies.react, Templates.technologies.flask, Templates.languages.javascript, Templates.languages.python], { source: "https://github.com/sidgames5/pallet" }, [Templates.purposes.made_by_me]),
+        new Project("Pallet", "https://raw.githubusercontent.com/sidgames5/pallet/refs/heads/master/src/logo.svg", "No-nonsense solution for inventory management in your home or business", [Templates.technologies.react, Templates.technologies.flask, Templates.languages.javascript, Templates.languages.python], { source: "https://github.com/sidgames5/pallet", homepage: "https://thefossrant.com/pallet" }, [Templates.purposes.made_by_me]),
         new Project("Excalibur", "", "A simple privacy-first voice assistant", [Templates.languages.python, Templates.interests.llms], { source: "https://github.com/sidgames5/excalibur", article: "https://blog.thefossrant.com/posts/3.-i-made-a-voice-assistant/" }, [Templates.purposes.made_by_me]),
         new Project("Cobra", "", "A high-level general-purpose interpreted language", [Templates.languages.haxe], { source: "https://github.com/sidgames5/cobra" }, [Templates.purposes.made_by_me])
     ],
