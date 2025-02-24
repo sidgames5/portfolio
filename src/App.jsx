@@ -1,18 +1,27 @@
 import "./App.css";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
-import Section4 from "./Section4";
-import Section5 from "./Section5";
+import EducationCard from "./data/components/EducationCard";
+import ProjectCard from "./data/components/ProjectCard";
+import PersonalData from "./data/PersonalData";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function App() {
     return (
         <main>
-            <Section1 />
-            <Section2 />
-            <Section3 />
-            <Section4 />
-            <Section5 />
+            <Header />
+            <div className="flex flex-row">
+                <Sidebar />
+                <div className="flex flex-col gap-2">
+                    <h2 className="text-2xl">Projects</h2>
+                    <div className="flex flex-wrap gap-4 w-[60vw]">
+                        {PersonalData.projects.map(ProjectCard)}
+                    </div>
+                    <h2 className="text-2xl">Education</h2>
+                    <div className="flex flex-wrap gap-4 w-[60vw]">
+                        {PersonalData.education.map(EducationCard)}
+                    </div>
+                </div>
+            </div>
         </main>
     );
 }
