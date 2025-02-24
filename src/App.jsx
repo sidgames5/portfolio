@@ -2,13 +2,11 @@ import "./App.css";
 import EducationCard from "./data/components/EducationCard";
 import ProjectCard from "./data/components/ProjectCard";
 import PersonalData from "./data/PersonalData";
-import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 function App() {
     return (
         <main>
-            <Header />
             <div className="flex flex-row">
                 <Sidebar />
                 <div className="flex flex-col gap-2">
