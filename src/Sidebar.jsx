@@ -36,10 +36,10 @@ function TimeDisplay({ timeZone }) {
 }
 
 export default function Sidebar() {
-    return <div className="flex flex-col gap-2 bg-sky-700 bg-opacity-50 m-4 p-4 rounded-xl w-1/5">
+    return <div className="flex flex-col gap-2 bg-sky-700 bg-opacity-50 m-4 p-4 rounded-xl max-w-[25%]">
         <div className="flex flex-col">
-            <h1 className="text-4xl font-bold">Siddarth Srinivasan</h1>
-            <p className="text-2xl font-medium">@thefossrant</p>
+            <h1 className="text-3xl font-bold">Siddarth Srinivasan</h1>
+            <p className="text-xl font-medium">@thefossrant</p>
         </div>
         <div className="flex flex-col">
             <SocialMediaCard icon={faGithub} name="@sidgames5" link="https://github.com/sidgames5" />
@@ -47,15 +47,15 @@ export default function Sidebar() {
             <IconCard icon={faLocationDot}>Pittsburgh, PA, USA</IconCard>
             <IconCard icon={faClock}><TimeDisplay timeZone="America/New_York" /></IconCard>
         </div>
-        <h2 className="text-xl font-semibold">Languages</h2>
+        <h2 className="text-lg font-semibold">Languages</h2>
         <div className="flex flex-wrap gap-1">
             {PersonalData.languages.map(LanguageCard)}
         </div>
-        <h2 className="text-xl font-semibold">Technologies</h2>
+        <h2 className="text-lg font-semibold">Technologies</h2>
         <div className="flex flex-wrap gap-1">
             {PersonalData.technologies.map(TechnologyCard)}
         </div>
-        <h2 className="text-xl font-semibold">Interests</h2>
+        <h2 className="text-lg font-semibold">Interests</h2>
         <div className="flex flex-wrap gap-1">
             {PersonalData.interests.map(InterestCard)}
         </div>
