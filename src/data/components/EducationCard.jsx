@@ -3,7 +3,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function EducationCard(school) {
     return (
-        <div className="bg-sky-700 bg-opacity-50 p-4 h-full w-[45%] 2xl:w-[30%] rounded-xl flex flex-col gap-1">
+        <div className="bg-sky-700 bg-opacity-50 p-4 h-full rounded-xl flex flex-col gap-1">
             <div className="flex flex-row justify-between">
                 <div className="flex flex-col">
                     <h2 className="text-xl font-semibold">{school.name}</h2>

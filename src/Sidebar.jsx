@@ -36,7 +36,7 @@ function TimeDisplay({ timeZone }) {
 }
 
 export default function Sidebar() {
-    return <div className="flex flex-col gap-2 bg-sky-700 bg-opacity-50 m-4 p-4 rounded-xl max-w-[25%]">
+    return <div className="flex flex-col gap-2 bg-sky-700 bg-opacity-50 p-4 rounded-xl max-w-[25%]">
         <div className="flex flex-col">
             <h1 className="text-3xl font-bold">Siddarth Srinivasan</h1>
             <p className="text-xl font-medium">@thefossrant</p>
