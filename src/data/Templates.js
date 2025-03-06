@@ -2,11 +2,12 @@ import { faAndroid, faDartLang, faDocker, faFlutter, faGitAlt, faJava, faJs, faL
 import Language from "./models/Language";
 import Technology from "./models/Technology";
 import Interest from "./models/Interest";
-import { faBriefcase, faCamera, faChartDiagram, faFlask, faKey, faMessage, faMusic, faScrewdriverWrench, faShield, faTrophy, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCamera, faChartDiagram, faDatabase, faFlask, faKey, faMessage, faMusic, faScrewdriverWrench, faShield, faTrophy, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const Templates = {
     languages: {
         javascript: new Language("JavaScript", faJs),
+        typescript: new Language("TypeScript"),
         python: new Language("Python", faPython),
         java: new Language("Java", faJava),
         haxe: new Language("Haxe"),
@@ -15,12 +16,14 @@ const Templates = {
     },
     technologies: {
         react: new Technology("React", faReact),
+        nextjs: new Technology("Next.js"),
         flask: new Technology("Flask", faFlask),
         flutter: new Technology("Flutter", faFlutter),
         android: new Technology("Android", faAndroid),
         linux: new Technology("Linux", faLinux),
         docker: new Technology("Docker", faDocker),
-        git: new Technology("Git", faGitAlt)
+        git: new Technology("Git", faGitAlt),
+        supabase: new Technology("Supabase", faDatabase)
     },
     interests: {
         privacy: new Interest("Privacy", faShield),

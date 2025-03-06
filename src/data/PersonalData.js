@@ -6,17 +6,18 @@ import Templates from "./Templates";
 const PersonalData = {
     languages: [
         Templates.languages.javascript,
+        Templates.languages.typescript,
         Templates.languages.python,
         Templates.languages.java,
         Templates.languages.haxe,
-        Templates.languages.kotlin,
-        Templates.languages.dart
+        Templates.languages.kotlin
     ],
     technologies: [
         Templates.technologies.react,
+        Templates.technologies.nextjs,
         Templates.technologies.flask,
-        Templates.technologies.flutter,
         Templates.technologies.android,
+        Templates.technologies.supabase,
         Templates.technologies.linux,
         Templates.technologies.docker,
         Templates.technologies.git
